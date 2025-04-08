@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Podcast Player - alone-296348</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #000;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    .cover {
+      max-width: 100%;
+      width: 360px;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(255, 255, 255, 0.2);
+    }
+    .player {
+      margin-top: 20px;
+      width: 100%;
+      max-width: 360px;
+    }
+    audio {
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <img src="https://player.nexusstarlink.com/youtube.png" alt="Podcast Cover" class="cover" />
+  <div class="player">
+    <audio controls preload="metadata">
+      <source src="https://player.nexusstarlink.com/alone-296348.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+</body>
+</html>
