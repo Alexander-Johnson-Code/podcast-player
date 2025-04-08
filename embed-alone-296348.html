@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alone - Audio Player</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #0e0e0e;
+      color: white;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+    .player-container {
+      width: 100%;
+      max-width: 600px;
+      padding: 20px;
+      box-sizing: border-box;
+      text-align: center;
+    }
+    img.cover {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+    audio {
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div class="player-container">
+    <img class="cover" src="https://podcast.nexusstarlink.com/youtube.png" alt="Podcast Cover">
+    <audio controls>
+      <source src="https://pub-85b9c9919f47465e9e95d39dddf9118d.r2.dev/alone-296348.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+</body>
+</html>
